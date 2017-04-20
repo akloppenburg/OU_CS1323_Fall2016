@@ -6,8 +6,8 @@ public class MidtermPractice {
 
 		double base;  // the base cost of the ticket 
 		int suitcases; // the number of suitcases 
-		String premium; // Yes if the user wants a premium seat, no otherwise 
-		double cost;  // the cost of the ticket 
+		String premium; // Yes if the user wants a premium seat, no otherwise  
+		double cost = 0;
 		Scanner input = new Scanner(System.in); // Assume this is previously constructed
 		
 		
@@ -22,11 +22,14 @@ public class MidtermPractice {
 		
 		
 		// Perform cost calculation below
-		if (premium.equals("Yes"))
+		if (premium.equals("Yes")){
 			cost = base + ((suitcases * 35) - 10) + 20;
-		else
+		}
+		else{
 			cost = base + ((suitcases * 35) - 10);
-		
+		}
+		System.out.println(cost);
+		input.close();
 	}
 
 }

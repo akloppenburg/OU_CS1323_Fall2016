@@ -6,13 +6,10 @@ public class Midtermpractice2 {
 		
 		int seatsUpperLevel = 9000;
 		int seatsLowerLevel = 2000;
-		double costUpperlevel = 5.0;
-		double costLowerLevel = 15.0;
 		int seatsOrdered;
 		String whichDeck = new String();
-		String temp;
 		Scanner input = new Scanner(System.in);
-		double totalCost;
+		double totalCost = 0;
 		
 		//
 		System.out.println("Enter the number and type of seat (upper level or lower level) or -1 to exit");
@@ -36,6 +33,7 @@ public class Midtermpractice2 {
 				System.out.print("Invalid input");
 			}
 		}
+		input.close();
 	}
 
 }

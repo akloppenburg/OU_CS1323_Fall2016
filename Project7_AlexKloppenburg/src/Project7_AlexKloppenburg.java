@@ -58,7 +58,6 @@ public class Project7_AlexKloppenburg {
 		//Finds number of lines and eats the newline character
 		int numLines = file.nextInt();
 		String temp = file.nextLine();
-		
 		//for loop to call the countOccurrences 6 times for each line
 		for(i = 0; i < numLines; ++i){
 		

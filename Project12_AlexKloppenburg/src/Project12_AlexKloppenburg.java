@@ -8,8 +8,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
 
-public class Project11_AlexKloppenburg extends JPanel{
+public class Project12_AlexKloppenburg extends JPanel{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2635536079880247046L;
 	//Can change this constant
 	private static final int SIZE = 300;
 	
@@ -19,7 +23,7 @@ public class Project11_AlexKloppenburg extends JPanel{
 		JFrame frame = new JFrame("stick man");
 		
 		//Don't change this
-		JPanel panel = new Project11_AlexKloppenburg();
+		JPanel panel = new Project12_AlexKloppenburg();
 		
 		//Can change this
 		frame.setSize(SIZE, SIZE);

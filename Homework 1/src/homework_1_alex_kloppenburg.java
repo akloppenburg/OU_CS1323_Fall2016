@@ -9,7 +9,7 @@ public class homework_1_alex_kloppenburg {
 		double dSize = 9.2;
 		double number = 0;
 		
-		number = 4 * 9.0 / 5 - 1;
+		number = dCount * iCount / dSize - iSize;
 		System.out.print(number);
 	}
 }

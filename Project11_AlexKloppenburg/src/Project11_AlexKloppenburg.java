@@ -46,7 +46,7 @@ public class Project11_AlexKloppenburg {
 					isWhite = !isWhite;
 				}
 				if(isWhite = true){
-					image[rows][cols]=;
+					image[rows][cols] = 0;
 				}
 			}
 		}

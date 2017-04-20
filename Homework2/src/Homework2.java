@@ -11,7 +11,7 @@ import java.util.Scanner;				//Imported scanner
 public class Homework2 {
 
 	public static void main(String[] args) {
-		
+		String temp;
 		Scanner keyboard = new Scanner(System.in);
 		
 		//Prompt user for first person's name and get input
@@ -22,7 +22,7 @@ public class Homework2 {
 		//Prompt user for hour first person woke up and get input
 		System.out.println("Please enter the hour that " + name1 + " woke up.");
 		int hours1 = keyboard.nextInt();
-		String temp = keyboard.nextLine();
+		temp = keyboard.nextLine();
 		
 		//Prompt user for minutes after that hour the first person woke up and get input
 		System.out.println("Please enter the number of minutes after " + hours1 + " o'clock that " + name1 + " woke up.");
@@ -47,5 +47,7 @@ public class Homework2 {
 		//Print names & time of waking in hours and minutes of first & second people
 		System.out.println(name1 + " " + hours1 + " " + minutes1);
 		System.out.print(name2 + " " + hours2 + " " + minutes2);
+		
+		keyboard.close();
 	}
 }

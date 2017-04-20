@@ -4,8 +4,7 @@
 */ 
 
 import java.util.Scanner;
-public class Project5 
-{
+public class Project5_JunaidAhmed{
 
 	public static void main(String[] args)
 	{
